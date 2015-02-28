@@ -1,0 +1,7 @@
+from django.contrib import admin
+from soccer.models import SoccerPeople
+admin.site.register(SoccerPeople)
+admin.site.register(SoccerTeam)
+admin.site.register(SoccerLeage)
+
+# Register your models here.
